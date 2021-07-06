@@ -1,6 +1,6 @@
 <template >
   <div class="item1 my-3 mx-3" >
-    <h1>This is Item1 page.</h1>
+    <h1 class="orange--text text--darken-4">This is Item1 page.</h1>
     <v-container class="my-5">
       <v-layout row wrap>
         <v-flex xs12 sm6 md4 lg3 v-for="person in team" :key="person.name">
@@ -36,10 +36,10 @@ export default {
     return{
       team:[
         {avatar: '/card1.jpg',name:'Negin',price1:'90',price2:'1'},
-        {avatar: '/card2.jpg',name:'ali',price1:'40',price2:'3'},
-        {avatar: '/card3.jpg',name:'fatemh',price1:'10',price2:'7'},
-        {avatar: '/card4.jpg',name:'reza',price1:'80',price2:'4'},
-        {avatar: '/card5.jpg',name:'nima',price1:'100',price2:'9'}
+        {avatar: '/card2.jpg',name:'Ali',price1:'40',price2:'3'},
+        {avatar: '/card3.jpg',name:'Fatemeh',price1:'10',price2:'7'},
+        {avatar: '/card4.jpg',name:'Reza',price1:'80',price2:'4'},
+        {avatar: '/card5.jpg',name:'Nima',price1:'100',price2:'9'}
       ]
     };
   }
@@ -48,11 +48,5 @@ export default {
 </script>
 
 <style>
-v-img{
-    width: 100px;
-    height: 100px;
-}
-
-
 
 </style>

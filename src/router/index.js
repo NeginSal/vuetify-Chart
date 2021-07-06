@@ -5,6 +5,7 @@ import Item2 from '../views/Item2.vue'
 import Item3 from '../views/Item3.vue'
 import Item4 from '../views/Item4.vue'
 import Item5 from '../views/Item5.vue'
+import Item6 from '../views/Item6.vue'
 import Newpage from '../components/Newpage.vue'
 
 Vue.use(VueRouter)
@@ -34,6 +35,11 @@ const routes = [
     path: '/item5',
     name: 'Item5',
     component: Item5
+  },
+  {
+    path: '/item6',
+    name: 'Item6',
+    component: Item6
   },
   {
     path: '/newpage',

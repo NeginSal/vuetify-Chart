@@ -1,5 +1,5 @@
 <template>
-  <div><h1>this is item5 page</h1></div>
+  <div><h1 class="green--text">this is gallery</h1></div>
 </template>
 
 <script>
